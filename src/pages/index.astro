@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
 import { getCollection, type CollectionEntry } from "astro:content";
+import Hero from "../components/Hero.astro";
 const peliculas: CollectionEntry<"peliculas">[] =
   await getCollection("peliculas");
 
@@ -10,8 +11,9 @@ const peliculas: CollectionEntry<"peliculas">[] =
 ---
 
 <Layout>
+  <Hero />
   <section>
-    <h4 class="text-xl font-semibold text-blue-500">Películas</h4>
+    <h4 class="text-2xl font-semibold text-blue-500">Películas</h4>
     <p>
       No suelo ver muchas series, me gustan más las peliculas. A continuación,
       algunas de las películas que me gustan
