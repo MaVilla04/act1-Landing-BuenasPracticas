@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.ytimg.com/vi/IoQPUqvcmXY/maxresdefault.jpg",
+    "titulo": "Yo antes de ti",
+    "fechaEstreno": "3 de Jun 2016",
+    "director": "Thea Sharrock"
+  },
+  {
+    "id": 2,
+    "img": "https://i.ytimg.com/vi/6hB3S9bIaco/maxresdefault.jpg",
+    "titulo": "Sueños de fuga",
+    "fechaEstreno": "23 de Sep 1994",
+    "director": "Frank Darabont"
+  },
+  {
+    "id": 3,
+    "img": "https://i.ytimg.com/vi/EXeTwQWrcwY/maxresdefault.jpg",
+    "titulo": "El caballero de la noche",
+    "fechaEstreno": "18 de Jul 2008",
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 4,
+    "img": "https://i.ytimg.com/vi/PLl99DlL6b4/maxresdefault.jpg",
+    "titulo": "La lista de Schindler",
+    "fechaEstreno": "4 de Feb 1994",
+    "director": "Steven Spielberg"
+  },
+  {
+    "id": 5,
+    "img": "https://i.ytimg.com/vi/YoHD9XEInc0/maxresdefault.jpg",
+    "titulo": "Origen",
+    "fechaEstreno": "16 de Jul 2010",
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 6,
+    "img": "https://i.ytimg.com/vi/2e-eXJ6HgkQ/maxresdefault.jpg",
+    "titulo": "Parásitos",
+    "fechaEstreno": "30 de May 2019",
+    "director": "Bong Joon-ho"
+  },
+  {
+    "id": 7,
+    "img": "https://i.ytimg.com/vi/EXeTwQWrcwY/maxresdefault.jpg",
+    "titulo": "Gladiador",
+    "fechaEstreno": "5 de May 2000",
+    "director": "Ridley Scott"
+  },
+  {
+    "id": 8,
+    "img": "https://i.ytimg.com/vi/9ix7TUGVYIo/maxresdefault.jpg",
+    "titulo": "Matrix",
+    "fechaEstreno": "31 de Mar 1999",
+    "director": "Lana y Lilly Wachowski"
+  },
+  {
+    "id": 9,
+    "img": "https://i.ytimg.com/vi/TcMBFSGVi1c/maxresdefault.jpg",
+    "titulo": "Avengers: Endgame",
+    "fechaEstreno": "26 de Abr 2019",
+    "director": "Anthony y Joe Russo"
+  },
+  {
+    "id": 10,
+    "img": "https://i.ytimg.com/vi/5PSNL1qE6VY/maxresdefault.jpg",
+    "titulo": "Avatar",
+    "fechaEstreno": "18 de Dic 2009",
+    "director": "James Cameron"
+  },
+  {
+    "id": 11,
+    "img": "https://i.ytimg.com/vi/6ZfuNTqbHE8/maxresdefault.jpg",
+    "titulo": "Avengers: Infinity War",
+    "fechaEstreno": "27 de Abr 2018",
+    "director": "Anthony y Joe Russo"
+  },
+  {
+    "id": 12,
+    "img": "https://i.ytimg.com/vi/sGbxmsDFVnE/maxresdefault.jpg",
+    "titulo": "Star Wars: El despertar de la fuerza",
+    "fechaEstreno": "18 de Dic 2015",
+    "director": "J.J. Abrams"
+  }
+]
