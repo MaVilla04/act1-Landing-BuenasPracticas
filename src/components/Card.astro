@@ -1,0 +1,29 @@
+---
+import { Image } from "astro:assets";
+import type { CollectionEntry } from "astro:content";
+interface Props {
+  pelicula: CollectionEntry<"peliculas">;
+}
+
+const { pelicula } = Astro.props;
+const { titulo, director, img, fechaEstreno } = pelicula.data;
+---
+
+<article
+  class="flex flex-col border border-blue-400 m-2.5 rounded-lg p-4 min-w-44 max-w-3xs"
+>
+  <Image
+    src={img}
+    alt="imagen de Pelicula"
+    width="200"
+    height="200"
+    class="mx-auto mb-2"
+  />
+  <div>
+    <h4 class="text-xl font-semibold">{titulo}</h4>
+    <p class="font-semibold">Fecha de Estreno:</p>
+    <p>{fechaEstreno}</p>
+    <p class="font-semibold">Dirigida por:</p>
+    <p>{director}</p>
+  </div>
+</article>
