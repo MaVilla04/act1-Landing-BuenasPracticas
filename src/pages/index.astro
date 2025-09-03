@@ -5,16 +5,25 @@ import { getCollection, type CollectionEntry } from "astro:content";
 const peliculas: CollectionEntry<"peliculas">[] =
   await getCollection("peliculas");
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
+// Welcome to Astro! Wondering what to do next? Chesck out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <Layout>
-  <div class="grid grid-cols-1 md:grid-cols-4">
-    {
-      peliculas.map(function (pelicula) {
-        return <Card pelicula={pelicula} />;
-      })
-    }
-  </div>
+  <section>
+    <h4 class="text-xl font-semibold text-blue-500">Películas</h4>
+    <p>
+      No suelo ver muchas series, me gustan más las peliculas. A continuación,
+      algunas de las películas que me gustan
+    </p>
+    <div
+      class="grid grid-cols-1 justify-items-center md:grid-cols-3 xl:grid-cols-4"
+    >
+      {
+        peliculas.map(function (pelicula) {
+          return <Card pelicula={pelicula} />;
+        })
+      }
+    </div>
+  </section>
 </Layout>
