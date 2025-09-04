@@ -1,0 +1,51 @@
+---
+import HobbieCard from "./HobbieCard.astro";
+
+const hobbies = [
+  {
+    id: 1,
+    titulo: "Dibujar",
+    icon: "src/assets/palette.svg",
+    descripcion:
+      "Me gusta experimentar con diferentes estilos y temáticas. Para mí, el dibujo es una forma increíble de transmitir ideas, emociones y sensaciones.",
+  },
+  {
+    id: 2,
+    titulo: "Escuchar música",
+    icon: "src/assets/headphones.svg",
+    descripcion:
+      "Es mi actividad favorita de todos los días. No importa el género o el artista, mientras la canción me guste. Eso sí, siempre me fijo en la letra.",
+  },
+  {
+    id: 3,
+    icon: "src/assets/bookOpen.svg",
+    titulo: "Leer Webtoons",
+    descripcion:
+      "Me encanta perderme en las historias y disfrutar tanto de la trama como del arte. Siempre hay algo nuevo que descubrir en cada episodio.",
+  },
+  {
+    id: 4,
+    titulo: "Jugar Videojuegos",
+    icon: "src/assets/gamepad.svg",
+    descripcion:
+      "Es mi forma de relajarme y divertirme. Ya sea explorando mundos, viviendo aventuras o compartiendo partidas con amigos, siempre termino disfrutando el momento.",
+  },
+];
+---
+
+<section class="mx-auto lg:w-4/5">
+  <h4 class="text-2xl font-semibold text-blue-500">Hobbies</h4>
+  <p>
+    En mi tiempo libre me gusta hacer de todo un poco, aunque estos son los
+    hobbies que más disfruto.
+  </p>
+  <div
+    class="grid grid-cols-1 md:grid-cols-2 justify-items-center max-w-10/12 md:max-w-11/12 xl:max-w-8/12 mx-auto"
+  >
+    {
+      hobbies.map(function (hobbie) {
+        return <HobbieCard hobbie={hobbie} />;
+      })
+    }
+  </div>
+</section>
