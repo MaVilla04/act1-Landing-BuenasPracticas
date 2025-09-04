@@ -3,6 +3,7 @@ import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
 import { getCollection, type CollectionEntry } from "astro:content";
 import Hero from "../components/Hero.astro";
+import Hobbies from "../components/Hobbies.astro";
 const peliculas: CollectionEntry<"peliculas">[] =
   await getCollection("peliculas");
 
@@ -12,6 +13,7 @@ const peliculas: CollectionEntry<"peliculas">[] =
 
 <Layout>
   <Hero />
+  <Hobbies />
   <section class="mx-auto lg:w-4/5">
     <h4 class="text-2xl font-semibold text-blue-500">Películas</h4>
     <p>
