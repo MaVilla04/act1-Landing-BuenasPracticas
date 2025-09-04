@@ -1,24 +1,28 @@
 ---
 import HobbieCard from "./HobbieCard.astro";
+import bookOpen from "../assets/bookOpen.svg";
+import headphones from "../assets/headphones.svg";
+import gamepad from "../assets/gamepad.svg";
+import palette from "../assets/palette.svg";
 
 const hobbies = [
   {
     id: 1,
     titulo: "Dibujar",
-    icon: "src/assets/palette.svg",
+    icon: palette,
     descripcion:
       "Me gusta experimentar con diferentes estilos y temáticas. Para mí, el dibujo es una forma increíble de transmitir ideas, emociones y sensaciones.",
   },
   {
     id: 2,
     titulo: "Escuchar música",
-    icon: "src/assets/headphones.svg",
+    icon: headphones,
     descripcion:
       "Es mi actividad favorita de todos los días. No importa el género o el artista, mientras la canción me guste. Eso sí, siempre me fijo en la letra.",
   },
   {
     id: 3,
-    icon: "src/assets/bookOpen.svg",
+    icon: bookOpen,
     titulo: "Leer Webtoons",
     descripcion:
       "Me encanta perderme en las historias y disfrutar tanto de la trama como del arte. Siempre hay algo nuevo que descubrir en cada episodio.",
@@ -26,7 +30,7 @@ const hobbies = [
   {
     id: 4,
     titulo: "Jugar Videojuegos",
-    icon: "src/assets/gamepad.svg",
+    icon: gamepad,
     descripcion:
       "Es mi forma de relajarme y divertirme. Ya sea explorando mundos, viviendo aventuras o compartiendo partidas con amigos, siempre termino disfrutando el momento.",
   },

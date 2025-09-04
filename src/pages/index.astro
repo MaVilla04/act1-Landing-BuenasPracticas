@@ -14,14 +14,16 @@ const peliculas: CollectionEntry<"peliculas">[] =
 <Layout>
   <Hero />
   <Hobbies />
-  <section class="mx-auto lg:w-4/5">
-    <h4 class="text-2xl font-semibold text-blue-500">Películas</h4>
-    <p>
-      No suelo ver muchas series, me gustan más las peliculas. A continuación,
-      algunas de las películas que me gustan
-    </p>
+  <section>
+    <div class="mx-auto lg:w-4/5">
+      <h4 class="text-2xl font-semibold text-blue-500">Películas</h4>
+      <p>
+        No suelo ver muchas series, me gustan más las peliculas. A continuación,
+        algunas de las películas que me gustan
+      </p>
+    </div>
     <div
-      class="grid grid-cols-1 justify-items-center sm:grid-cols-3 xl:grid-cols-4 xl:w-4/6 mx-auto"
+      class="grid grid-cols-1 justify-items-center sm:grid-cols-3 xl:grid-cols-4 xl:w-4/5 mx-auto"
     >
       {
         peliculas.map(function (pelicula) {

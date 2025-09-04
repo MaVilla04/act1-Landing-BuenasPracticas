@@ -1,5 +1,4 @@
 ---
-import { Image } from "astro:assets";
 import type { CollectionEntry } from "astro:content";
 interface Props {
   pelicula: CollectionEntry<"peliculas">;
@@ -12,9 +11,9 @@ const { titulo, director, img, fechaEstreno } = pelicula.data;
 <article
   class="flex flex-col min-w-44 max-w-3xs p-4 m-2.5 border border-blue-400 rounded-lg hover:shadow-lg"
 >
-  <Image
+  <img
     src={img}
-    alt="imagen de Pelicula"
+    alt="pelicula"
     width="200"
     height="200"
     class="mx-auto mb-2 rounded-md"
