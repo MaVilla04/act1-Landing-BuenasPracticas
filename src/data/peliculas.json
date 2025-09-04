@@ -8,10 +8,10 @@
   },
   {
     "id": 2,
-    "img": "https://i.ytimg.com/vi/6hB3S9bIaco/maxresdefault.jpg",
-    "titulo": "Sueños de fuga",
-    "fechaEstreno": "23 de Sep 1994",
-    "director": "Frank Darabont"
+    "img": "https://i.ytimg.com/vi/VyHV0BRtdxo/maxresdefault.jpg",
+    "titulo": "Harry Potter y la piedra filosofal",
+    "fechaEstreno": "16 de Nov 2001",
+    "director": "Chris Columbus"
   },
   {
     "id": 3,
@@ -22,31 +22,31 @@
   },
   {
     "id": 4,
-    "img": "https://i.ytimg.com/vi/PLl99DlL6b4/maxresdefault.jpg",
-    "titulo": "La lista de Schindler",
-    "fechaEstreno": "4 de Feb 1994",
-    "director": "Steven Spielberg"
-  },
-  {
-    "id": 5,
     "img": "https://i.ytimg.com/vi/YoHD9XEInc0/maxresdefault.jpg",
     "titulo": "Origen",
     "fechaEstreno": "16 de Jul 2010",
     "director": "Christopher Nolan"
   },
   {
+    "id": 5,
+    "img": "https://i.ytimg.com/vi/87E6N7ToCxs/maxresdefault.jpg",
+    "titulo": "Ralph el demoledor",
+    "fechaEstreno": "2 de Nov 2012",
+    "director": "Rich Moore"
+  },
+  {
     "id": 6,
-    "img": "https://i.ytimg.com/vi/2e-eXJ6HgkQ/maxresdefault.jpg",
-    "titulo": "Parásitos",
-    "fechaEstreno": "30 de May 2019",
-    "director": "Bong Joon-ho"
+    "img": "https://i.ytimg.com/vi/-tnxzJ0SSOw/maxresdefault.jpg",
+    "titulo": "The Amazing Spider-Man",
+    "fechaEstreno": "3 de Jul 2012",
+    "director": "Marc Webb"
   },
   {
     "id": 7,
-    "img": "https://i.ytimg.com/vi/EXeTwQWrcwY/maxresdefault.jpg",
-    "titulo": "Gladiador",
-    "fechaEstreno": "5 de May 2000",
-    "director": "Ridley Scott"
+    "img": "https://i.ytimg.com/vi/T6DJcgm3wNY/maxresdefault.jpg",
+    "titulo": "Man of Steel",
+    "fechaEstreno": "14 de Jun 2013",
+    "director": "Zack Snyder"
   },
   {
     "id": 8,
@@ -64,23 +64,23 @@
   },
   {
     "id": 10,
+    "img": "https://i.ytimg.com/vi/g4Hbz2jLxvQ/maxresdefault.jpg",
+    "titulo": "Spider-Man: Un nuevo universo",
+    "fechaEstreno": "14 de Dic 2018",
+    "director": "Bob Persichetti, Peter R, Rodney R"
+  },
+  {
+    "id": 11,
     "img": "https://i.ytimg.com/vi/5PSNL1qE6VY/maxresdefault.jpg",
     "titulo": "Avatar",
     "fechaEstreno": "18 de Dic 2009",
     "director": "James Cameron"
   },
   {
-    "id": 11,
+    "id": 12,
     "img": "https://i.ytimg.com/vi/6ZfuNTqbHE8/maxresdefault.jpg",
     "titulo": "Avengers: Infinity War",
     "fechaEstreno": "27 de Abr 2018",
     "director": "Anthony y Joe Russo"
-  },
-  {
-    "id": 12,
-    "img": "https://i.ytimg.com/vi/sGbxmsDFVnE/maxresdefault.jpg",
-    "titulo": "Star Wars: El despertar de la fuerza",
-    "fechaEstreno": "18 de Dic 2015",
-    "director": "J.J. Abrams"
   }
 ]
